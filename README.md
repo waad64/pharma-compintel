@@ -1,40 +1,44 @@
 # Pharma-CompIntel AI Insights
 
-An AI-powered competitive intelligence platform for pharmaceutical and biotech companies, featuring automated data extraction from NASDAQ and intelligent analysis using Ollama.
+An AI-powered competitive intelligence platform for pharmaceutical and biotech companies, featuring automated data extraction from NASDAQ and intelligent analysis.
 
 ## 🚀 Features
 
 - **Automated Data Extraction**: Weekly automated fetching of healthcare companies from NASDAQ
-- **AI-Powered Enrichment**: Uses Ollama for intelligent data extraction and analysis
+- **AI-Powered Enrichment**: Uses LLM for intelligent data extraction and analysis
 - **Interactive Dashboard**: Streamlit-based dashboard with CI scoring and visualizations
 - **Comprehensive Analysis**: 6 CI domains with 17 sub-domains analysis
 - **Real-time Updates**: Automated weekly data refresh
 
 ## 📋 Prerequisites
 
-- Python 3.8+
-- Ollama installed locally
+- Python 3.10+
+- Ollama installed locally/ or LLM key(if aiming for production).
 - Chrome browser (for web scraping)
 
 ## 🛠️ Installation
 
 1. **Clone/Download the project**
+ ```bash
+   git clone 
+   ``` 
+3. 
    ```bash
    cd Pharma-Compintel
    ```
 
-2. **Setup Environment Variables**
+4. **Setup Environment Variables**
    ```bash
-   copy .env.example .env
+   copy  .env
    # Edit .env file with your Ollama configuration
    ```
 
-3. **Install dependencies**
+5. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Setup Ollama**
+6. **Setup Ollama**
    - Ensure Ollama is running locally
    - Pull the required model:
    ```bash
