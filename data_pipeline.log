@@ -1,0 +1,71 @@
+2026-04-05 16:44:44,998 - INFO - ================================================================================
+2026-04-05 16:44:44,998 - INFO - STARTING UNIFIED DATA PIPELINE
+2026-04-05 16:44:44,999 - INFO - ================================================================================
+2026-04-05 16:44:44,999 - INFO - Loading Excel file: C:\Users\Waad_BOUZID\Desktop\compintel\pharma_compintel_latest 25-March-2026.xlsx
+2026-04-05 16:44:44,999 - ERROR - Error loading Excel: [Errno 2] No such file or directory: 'C:\\Users\\Waad_BOUZID\\Desktop\\compintel\\pharma_compintel_latest 25-March-2026.xlsx'
+2026-04-05 16:44:45,002 - ERROR - Failed to load Excel data
+2026-04-05 16:45:27,172 - INFO - ================================================================================
+2026-04-05 16:45:27,172 - INFO - STARTING UNIFIED DATA PIPELINE
+2026-04-05 16:45:27,173 - INFO - ================================================================================
+2026-04-05 16:45:27,173 - ERROR - Excel file not found: None
+2026-04-05 16:45:27,173 - INFO - Files in directory: ['.venv', 'batch_report_generator.py', 'CI_SCORING_ENGINE.md', 'clinical_trials_extracted.csv', 'clinical_trials_extracted.xlsx', 'config.ini', 'data_pipeline.log', 'data_pipeline.py', 'DESIGN_SYSTEM.md', 'ENHANCEMENT_SUMMARY.md', 'enrich_with_nasdaq_data.py', 'extract_clinical_trials.py', 'IMPLEMENTATION_SUMMARY.md', 'logo.jpeg', 'pci_dashboard.py', 'PRODUCTION_GUIDE.md', 'QUICK_START.md', 'reports', 'report_docx_generator.py', 'REPORT_GENERATION_GUIDE.txt', 'REPORT_GENERATION_SYSTEM.md', 'report_generator.py', 'report_templates.py', 'requirements.txt', 'styles.css', 'unified_data_pipeline.py', 'utils.py', '__pycache__']
+2026-04-05 16:45:27,174 - ERROR - Failed to load Excel data
+2026-04-05 16:45:27,174 - ERROR - Data pipeline failed
+2026-04-05 16:45:36,044 - INFO - ================================================================================
+2026-04-05 16:45:36,044 - INFO - STARTING UNIFIED DATA PIPELINE
+2026-04-05 16:45:36,045 - INFO - ================================================================================
+2026-04-05 16:45:36,045 - ERROR - Excel file not found: None
+2026-04-05 16:45:36,045 - INFO - Files in directory: ['.venv', 'batch_report_generator.py', 'CI_SCORING_ENGINE.md', 'clinical_trials_extracted.csv', 'clinical_trials_extracted.xlsx', 'config.ini', 'data_pipeline.log', 'data_pipeline.py', 'DESIGN_SYSTEM.md', 'ENHANCEMENT_SUMMARY.md', 'enrich_with_nasdaq_data.py', 'extract_clinical_trials.py', 'IMPLEMENTATION_SUMMARY.md', 'logo.jpeg', 'pci_dashboard.py', 'PRODUCTION_GUIDE.md', 'QUICK_START.md', 'reports', 'report_docx_generator.py', 'REPORT_GENERATION_GUIDE.txt', 'REPORT_GENERATION_SYSTEM.md', 'report_generator.py', 'report_templates.py', 'requirements.txt', 'styles.css', 'unified_data_pipeline.py', 'utils.py', '__pycache__']
+2026-04-05 16:45:36,045 - ERROR - Failed to load Excel data
+2026-04-05 16:45:36,045 - ERROR - Data pipeline failed
+2026-04-05 16:45:54,274 - INFO - ================================================================================
+2026-04-05 16:45:54,274 - INFO - STARTING UNIFIED DATA PIPELINE
+2026-04-05 16:45:54,274 - INFO - ================================================================================
+2026-04-05 16:45:54,274 - ERROR - Excel file not found: None
+2026-04-05 16:45:54,274 - INFO - Files in directory: ['.venv', 'batch_report_generator.py', 'CI_SCORING_ENGINE.md', 'clinical_trials_extracted.csv', 'clinical_trials_extracted.xlsx', 'config.ini', 'data_pipeline.log', 'data_pipeline.py', 'DESIGN_SYSTEM.md', 'ENHANCEMENT_SUMMARY.md', 'enrich_with_nasdaq_data.py', 'extract_clinical_trials.py', 'IMPLEMENTATION_SUMMARY.md', 'logo.jpeg', 'pci_dashboard.py', 'PRODUCTION_GUIDE.md', 'QUICK_START.md', 'reports', 'report_docx_generator.py', 'REPORT_GENERATION_GUIDE.txt', 'REPORT_GENERATION_SYSTEM.md', 'report_generator.py', 'report_templates.py', 'requirements.txt', 'styles.css', 'unified_data_pipeline.py', 'utils.py', '__pycache__']
+2026-04-05 16:45:54,274 - ERROR - Failed to load Excel data
+2026-04-05 16:45:54,274 - ERROR - Data pipeline failed
+2026-04-05 16:46:30,889 - INFO - ================================================================================
+2026-04-05 16:46:30,889 - INFO - STARTING UNIFIED DATA PIPELINE
+2026-04-05 16:46:30,889 - INFO - ================================================================================
+2026-04-05 16:46:30,890 - INFO - Using existing clinical trials data: c:\Users\Waad_BOUZID\Desktop\compintel\clinical_trials_extracted.csv
+2026-04-05 16:46:31,019 - INFO - Loaded 8400 records from existing CSV
+2026-04-05 16:46:31,019 - INFO - Fetching NASDAQ healthcare stock data...
+2026-04-05 16:46:32,217 - INFO - API Response Status: 200
+2026-04-05 16:46:32,217 - INFO - Total stocks fetched: 7056
+2026-04-05 16:46:32,219 - INFO - Healthcare sector stocks found: 1091
+2026-04-05 16:46:32,221 - INFO - Enriching data with NASDAQ information...
+2026-04-05 16:46:32,833 - INFO - Matched records: 8400 out of 8400
+2026-04-05 16:46:32,833 - INFO - Unique unmatched companies: 0
+2026-04-05 16:46:32,833 - INFO - Saving enriched data...
+2026-04-05 16:46:32,919 - INFO - ✓ CSV saved: c:\Users\Waad_BOUZID\Desktop\compintel\clinical_trials_extracted.csv
+2026-04-05 16:46:34,753 - INFO - ✓ Excel saved: c:\Users\Waad_BOUZID\Desktop\compintel\clinical_trials_extracted.xlsx
+2026-04-05 16:46:34,753 - INFO - ================================================================================
+2026-04-05 16:46:34,753 - INFO - PIPELINE COMPLETE
+2026-04-05 16:46:34,753 - INFO - ================================================================================
+2026-04-05 16:46:34,753 - INFO - Total records processed: 8400
+2026-04-05 16:46:34,753 - INFO - Execution time: 3.86 seconds
+2026-04-05 16:46:34,753 - INFO - Data saved to: clinical_trials_extracted.csv and .xlsx
+2026-04-05 16:46:34,753 - INFO - Data pipeline executed successfully
+2026-04-05 16:46:56,817 - INFO - ================================================================================
+2026-04-05 16:46:56,817 - INFO - STARTING UNIFIED DATA PIPELINE
+2026-04-05 16:46:56,818 - INFO - ================================================================================
+2026-04-05 16:46:56,818 - INFO - Using existing clinical trials data: C:\Users\Waad_BOUZID\Desktop\compintel\clinical_trials_extracted.csv
+2026-04-05 16:46:57,069 - INFO - Loaded 8400 records from existing CSV
+2026-04-05 16:46:57,070 - INFO - Fetching NASDAQ healthcare stock data...
+2026-04-05 16:46:57,823 - INFO - API Response Status: 200
+2026-04-05 16:46:57,823 - INFO - Total stocks fetched: 7056
+2026-04-05 16:46:57,826 - INFO - Healthcare sector stocks found: 1091
+2026-04-05 16:46:57,828 - INFO - Enriching data with NASDAQ information...
+2026-04-05 16:47:00,693 - INFO - Matched records: 8400 out of 8400
+2026-04-05 16:47:00,694 - INFO - Unique unmatched companies: 0
+2026-04-05 16:47:00,694 - INFO - Saving enriched data...
+2026-04-05 16:47:00,770 - INFO - ✓ CSV saved: C:\Users\Waad_BOUZID\Desktop\compintel\clinical_trials_extracted.csv
+2026-04-05 16:47:02,789 - INFO - ✓ Excel saved: C:\Users\Waad_BOUZID\Desktop\compintel\clinical_trials_extracted.xlsx
+2026-04-05 16:47:02,790 - INFO - ================================================================================
+2026-04-05 16:47:02,790 - INFO - PIPELINE COMPLETE
+2026-04-05 16:47:02,790 - INFO - ================================================================================
+2026-04-05 16:47:02,790 - INFO - Total records processed: 8400
+2026-04-05 16:47:02,791 - INFO - Execution time: 5.97 seconds
+2026-04-05 16:47:02,791 - INFO - Data saved to: clinical_trials_extracted.csv and .xlsx
+2026-04-05 16:47:02,791 - INFO - Data pipeline executed successfully

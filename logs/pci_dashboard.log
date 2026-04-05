@@ -1,0 +1,3 @@
+2026-04-05 17:01:47,593 - pci_dashboard - INFO - User authenticated: admin
+2026-04-05 17:01:47,595 - pci_dashboard - INFO - Session initialized for user: admin
+2026-04-05 17:02:01,527 - pci_dashboard - INFO - User logged out: admin
